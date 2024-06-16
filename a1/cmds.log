@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 =======
 Commands - Truong NGuyen 
 -----------------
@@ -34,4 +34,3 @@ grep '2019-05-12' 2019-05.csv | awk -F',' 'NR > 1 {if ($17 > max) max = $17} END
 awk -F',' 'NR > 1 && $4 >= 3 {print $9}' 2019-05.csv | sort | uniq -c | sort -nr | head -n 10
 
    
->>>>>>> 9f50c2b (updated)
