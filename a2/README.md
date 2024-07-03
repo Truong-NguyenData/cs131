@@ -1,5 +1,6 @@
 #-------------------------Download File Organize Automation-----------------------
 #-	                        						 -
+#
 #This shell script will run automaticThis shell script will automatically
 #organize files into their respective directories based on their
 #file types every 3 seconds. It runs in the background of 
