@@ -12,7 +12,7 @@ organize_files() {
         exit 1
     fi
     
-    sorted=$(ls -l -d */ && ls -l -p | grep -v '/$')
+    sorted=$(ls -l | sort)
 
     for file in *; do
 	if [ -f "$file" ]; then
